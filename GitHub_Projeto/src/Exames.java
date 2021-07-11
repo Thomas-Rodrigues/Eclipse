@@ -8,6 +8,7 @@ import javax.swing.JTextField;
 import java.awt.Font;
 import javax.swing.JLabel;
 import java.awt.Color;
+import java.awt.Toolkit;
 
 public class Exames extends JFrame {
 
@@ -40,6 +41,8 @@ public class Exames extends JFrame {
 	 * Create the frame.
 	 */
 	public Exames() {
+		setTitle("Exame");
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Thoma\\Downloads\\Logo_Imagem2.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 500, 430);
 		contentPane = new JPanel();
@@ -58,6 +61,7 @@ public class Exames extends JFrame {
 		ftxtSeusExames.setColumns(10);
 		
 		ftextDescExame = new JTextField();
+		ftextDescExame.setBackground(Color.WHITE);
 		ftextDescExame.setFont(new Font("Arial", Font.PLAIN, 12));
 		ftextDescExame.setEditable(false);
 		ftextDescExame.setBounds(10, 190, 474, 190);
