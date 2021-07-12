@@ -56,9 +56,9 @@ public class Paciente_Cadastro extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblCadastroPaciente = new JLabel("Cadastro de Paciente");
+		JLabel lblCadastroPaciente = new JLabel("Cadastro");
 		lblCadastroPaciente.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblCadastroPaciente.setBounds(110, 11, 198, 30);
+		lblCadastroPaciente.setBounds(152, 11, 92, 30);
 		contentPane.add(lblCadastroPaciente);
 		
 		ftextCPF = new JTextField();
@@ -131,10 +131,11 @@ public class Paciente_Cadastro extends JFrame {
 		lblSenha.setBounds(97, 304, 58, 30);
 		contentPane.add(lblSenha);
 		
-		JButton btnNewButton = new JButton("Cadastrar");
-		btnNewButton.setFont(new Font("Arial", Font.PLAIN, 20));
-		btnNewButton.setBounds(275, 360, 127, 30);
-		contentPane.add(btnNewButton);
+		JButton btnCadastrar = new JButton("Cadastrar");
+		btnCadastrar.setBackground(Color.DARK_GRAY);
+		btnCadastrar.setFont(new Font("Arial", Font.PLAIN, 20));
+		btnCadastrar.setBounds(275, 360, 127, 30);
+		contentPane.add(btnCadastrar);
 		
 		
 	}

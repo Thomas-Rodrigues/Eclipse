@@ -44,7 +44,7 @@ public class Agendamento_Exame extends JFrame {
 		setTitle("Tela Agendamento");
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Thoma\\Downloads\\Logo_Imagem2.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 389);
+		setBounds(100, 100, 481, 398);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.LIGHT_GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -52,73 +52,74 @@ public class Agendamento_Exame extends JFrame {
 		contentPane.setLayout(null);
 		
 		JButton btnNewButton = new JButton("Agendar");
+		btnNewButton.setBackground(Color.DARK_GRAY);
 		btnNewButton.setFont(new Font("Arial", Font.PLAIN, 20));
-		btnNewButton.setBounds(278, 316, 120, 23);
+		btnNewButton.setBounds(318, 313, 126, 23);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblAgendamentoExame = new JLabel("Agendamento");
 		lblAgendamentoExame.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblAgendamentoExame.setBounds(140, 11, 215, 23);
+		lblAgendamentoExame.setBounds(158, 11, 134, 23);
 		contentPane.add(lblAgendamentoExame);
 		
 		textField = new JTextField();
-		textField.setBounds(219, 55, 179, 30);
+		textField.setBounds(187, 55, 216, 30);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("CPF");
 		lblNewLabel.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblNewLabel.setBounds(120, 58, 50, 27);
+		lblNewLabel.setBounds(37, 246, 50, 27);
 		contentPane.add(lblNewLabel);
 		
 		textField_1 = new JTextField();
 		textField_1.setColumns(10);
-		textField_1.setBounds(219, 96, 179, 30);
+		textField_1.setBounds(219, 96, 140, 30);
 		contentPane.add(textField_1);
 		
 		textField_2 = new JTextField();
 		textField_2.setColumns(10);
-		textField_2.setBounds(219, 137, 179, 30);
+		textField_2.setBounds(187, 137, 216, 30);
 		contentPane.add(textField_2);
 		
 		textField_3 = new JTextField();
 		textField_3.setColumns(10);
-		textField_3.setBounds(219, 178, 179, 30);
+		textField_3.setBounds(187, 178, 216, 30);
 		contentPane.add(textField_3);
 		
 		JLabel lblNome = new JLabel("Nome");
 		lblNome.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblNome.setBounds(120, 99, 56, 27);
+		lblNome.setBounds(37, 208, 56, 27);
 		contentPane.add(lblNome);
 		
 		JLabel lblEscolhaUmaData = new JLabel("Escolha uma Data");
 		lblEscolhaUmaData.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblEscolhaUmaData.setBounds(10, 140, 160, 27);
+		lblEscolhaUmaData.setBounds(37, 95, 160, 27);
 		contentPane.add(lblEscolhaUmaData);
 		
 		JLabel lblPeriodo = new JLabel("Periodo");
 		lblPeriodo.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblPeriodo.setBounds(100, 181, 70, 27);
+		lblPeriodo.setBounds(37, 136, 70, 27);
 		contentPane.add(lblPeriodo);
 		
 		textField_4 = new JTextField();
 		textField_4.setColumns(10);
-		textField_4.setBounds(219, 219, 179, 30);
+		textField_4.setBounds(187, 219, 216, 30);
 		contentPane.add(textField_4);
 		
 		textField_5 = new JTextField();
 		textField_5.setColumns(10);
-		textField_5.setBounds(219, 260, 179, 30);
+		textField_5.setBounds(187, 260, 216, 30);
 		contentPane.add(textField_5);
 		
 		JLabel lblTipoDeExame = new JLabel("Tipo de Exame");
 		lblTipoDeExame.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblTipoDeExame.setBounds(30, 219, 140, 27);
+		lblTipoDeExame.setBounds(37, 54, 140, 27);
 		contentPane.add(lblTipoDeExame);
 		
 		JLabel lblUnidade = new JLabel("Unidade");
 		lblUnidade.setFont(new Font("Arial", Font.PLAIN, 20));
-		lblUnidade.setBounds(90, 263, 80, 27);
+		lblUnidade.setBounds(37, 177, 80, 27);
 		contentPane.add(lblUnidade);
 	}
 
